@@ -3,7 +3,7 @@
 using namespace std;
 
 // Bubble sort
-void bubblesort(int arr[], int n)
+void bubblesort(int arr[], int n) // TC O(n^2)
 {
     for (int i = 0; i <= n - 1; i++)
     {
@@ -24,7 +24,7 @@ void bubblesort(int arr[], int n)
 }
 
 // Selection sort
-void selectionsort(int arr[], int n)
+void selectionsort(int arr[], int n) // TC O(n^2)
 {
     for (int i = 0; i < n - 1; i++)
     {
@@ -41,7 +41,7 @@ void selectionsort(int arr[], int n)
 }
 
 // Insertion sort
-void insertionsort(int arr[], int n)
+void insertionsort(int arr[], int n) // TC O(n^2)
 {
     for (int i = 1; i < n; i++)
     {
