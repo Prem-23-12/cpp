@@ -137,10 +137,6 @@ int bookalloc(vector<int> a,int n,int m){
     }
 }
 
-// Painter Parition 
-
-
-
 int main(){
     vector<int> p={40,30,10,20};
     vector<int> a={15,17,20};
