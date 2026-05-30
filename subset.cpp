@@ -63,7 +63,7 @@ void nQueens(vector<string> &board, int row, int n, vector<vector<string>> &ans)
 }
 
 // sudoko solver 
-
+    
 int main(){
     vector<int> arr = {1,2,3};
     vector<int> ans1;
