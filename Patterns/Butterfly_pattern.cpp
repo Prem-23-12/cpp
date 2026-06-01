@@ -2,6 +2,16 @@
   using namespace std;
   
 // Butterfly Pattern
+/* n = 4
+*      *
+**    **
+***  ***
+********
+********
+***  ***
+**    **
+*      *
+*/
   int main(){
         int n,i,j ;
     cout << "enter n ";
