@@ -78,7 +78,7 @@ int main()
     // approach 1 brute force approach
     sort(nums.begin(),nums.end());
 
-    approach 2
+    //approach 2
     int count0=0,count1=0,count2=0;
     for(int i=0;i<n;i++){
         if(nums[i]==0)count0++;
