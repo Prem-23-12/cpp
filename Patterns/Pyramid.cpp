@@ -1,0 +1,27 @@
+# include <iostream>
+  using namespace std;
+  
+ // Pyramid
+   /*
+   1
+  121  for n = 4
+ 12321
+1234321
+*/
+  int main(){ 
+    int n,i,j;
+    cout << "enter n ";
+    cin >> n;
+    for(i=0;i<n;i++){
+        for(j=1;j<n-i;j++){
+            cout <<" ";
+        }
+        for(j=1;j<=i+1;j++){
+            cout << j;
+        }
+        for(j=i;j>0;j--){
+            cout << j;
+        }cout << "\n";
+    }
+
+  }
