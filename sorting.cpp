@@ -2,24 +2,6 @@
 #include <vector>
 using namespace std;
 
-
-// Selection sort
-void selectionsort(int arr[], int n) // TC O(n^2)
-{
-    for (int i = 0; i < n - 1; i++)
-    {
-        int SI = i;
-        for (int j = i + 1; j < n; j++)
-        {
-            if (arr[j] < arr[SI])
-            {
-                SI = j;
-            }
-        }
-        swap(arr[i], arr[SI]);
-    }
-}
-
 // Insertion sort
 void insertionsort(int arr[], int n) // TC O(n^2)
 {
