@@ -2,10 +2,6 @@
 #include <vector>
 using namespace std;
 
-
-// Question : Sort an given array in proper manner
-
-
 int main()
 {
     int n = 5;
@@ -13,9 +9,6 @@ int main()
 
     vector<int> nums = {2, 0, 1, 0, 2, 1, 0, 1, 2, 0, 2};
     n=nums.size();
-
-    // approach 1 brute force approach
-    sort(nums.begin(),nums.end());
 
     //approach 2
     int count0=0,count1=0,count2=0;
