@@ -13,8 +13,8 @@ int consecutive_one(vector <int> &nums){
         else {
             count  = 0;
         }
+        maxi = max(maxi,count);
     }
-    maxi = max(maxi,count);
 
     return maxi;
 }
