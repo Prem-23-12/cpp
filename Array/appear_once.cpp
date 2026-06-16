@@ -20,8 +20,20 @@ int appear_once(vector <int> &nums){
     return -1;
 }
 
+// Optimal approach 
+int singleel(vector <int> &nums){
+    int n = nums.size();
+    int maxi = 0;
+
+    for(int i = 0 ; i < n ; i++){
+        maxi = maxi ^ nums[i];
+    }
+    return maxi;
+}
+
 int main(){
     vector <int> nums = {4,1,2,1,2};
-    cout << appear_once(nums);
+    cout << appear_once(nums) << endl;
+    cout << singleel(nums);
     return 0 ;
 }
