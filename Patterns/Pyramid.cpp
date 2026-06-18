@@ -23,11 +23,8 @@ int main(){
             cout << j;
         }cout << "\n";
     }
-    return 0;
-  }
 
-
-int main(){
+// * pattern
     int n = 5;
     for(int i = 0 ; i < n ; i++){
         for (int j = i ; j < n-1 ; j++){
