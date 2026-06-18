@@ -1,5 +1,5 @@
-# include <iostream>
-  using namespace std;
+# include <bits/stdc++.h>
+using namespace std;
   
  // Pyramid
    /*
@@ -8,7 +8,7 @@
  12321
 1234321
 */
-  int main(){ 
+int main(){ 
     int n,i,j;
     cout << "enter n ";
     cin >> n;
@@ -23,5 +23,23 @@
             cout << j;
         }cout << "\n";
     }
-
+    return 0;
   }
+
+
+int main(){
+    int n = 5;
+    for(int i = 0 ; i < n ; i++){
+        for (int j = i ; j < n-1 ; j++){
+            cout << " " ;
+        }
+        for(int j = 0 ; j <= i ; j++){
+            cout << "*";
+        }
+        for(int j = 0 ; j < i ; j++){
+            cout << "*";
+        }
+        cout << endl;
+    }
+    return 0 ;
+}
