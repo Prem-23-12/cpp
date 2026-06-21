@@ -1,6 +1,8 @@
 # include <bits/stdc++.h>
 using namespace std ;
 
+
+// To print all unique elements in array
 void appear_once(vector <int> &nums){
 
     int n = nums.size();
@@ -18,13 +20,13 @@ void appear_once(vector <int> &nums){
     }
 }
 
-// Optimal approach 
+// single unique element in array 
 int singleel(vector <int> &nums1){
     int n = nums1.size();
     int maxi = 0;
 
     for(int i = 0 ; i < n ; i++){
-        maxi = maxi ^ nums1[i];
+        maxi = maxi ^ nums1[i];  // using XOR operator 
     }
     return maxi;
 }
