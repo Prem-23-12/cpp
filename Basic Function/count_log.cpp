@@ -1,7 +1,6 @@
 #include <bits/stdc++.h>
 using namespace std ;
 
-
 int main() {  
     int n = 12345;
     // log10(n)+1 return the no of digit 
