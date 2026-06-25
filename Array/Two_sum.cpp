@@ -1,6 +1,7 @@
 # include <bits/stdc++.h>
 using namespace std ;
 
+// Brute Force approach
 vector <int> Two_sum(vector<int>& nums,int target){
     int n = nums.size();
 
@@ -12,6 +13,7 @@ vector <int> Two_sum(vector<int>& nums,int target){
         }
     }
     return {};
+
 }
 
 int main (){
