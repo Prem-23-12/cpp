@@ -1,7 +1,7 @@
 # include <bits/stdc++.h>
 using namespace std ;
 
-
+// Reverse the string 
 string reversethestr(string p){
     int n = p.length();
     string ans = "";
