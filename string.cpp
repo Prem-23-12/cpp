@@ -55,7 +55,5 @@ int main(){
      string p = " Myself Prem Parmar ";
     //  vector <char> chars={"a","a","b","b","c","c","c"};
 
-
-     cout << ispermutation(s1,s2) << endl;
       return 0;
 }
