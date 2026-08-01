@@ -3,15 +3,6 @@
 # include <vector>
 using namespace std;
 
-// Remove the occurences in the string      
-
-string removeoccurences(string str, string part){
-    while(str.length() >0 && str.find(part) < str.length()){
-        str.erase(str.find(part),part.length());
-    }
-    return str;
-}
-
 // check the permutation in the strings
 bool isFreqsame(int freq1[], int freq2[]){
     for(int i=0 ; i<26 ; i++){
