@@ -116,7 +116,7 @@ int compression(vector<char> chars){
 }
 
 int main(){
-     string s = "abcfdba";
+     string s = "abcfcba";
      string str ="dabcacbabcabc";
      string part ="abc";
      string s1="ab";
