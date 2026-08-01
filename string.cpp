@@ -29,7 +29,6 @@ int compression(vector<char> chars){
 }
 
 int main(){
-     string p = " Myself Prem Parmar ";
     //  vector <char> chars={"a","a","b","b","c","c","c"};
 
       return 0;
