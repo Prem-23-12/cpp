@@ -30,6 +30,6 @@ int compression(vector<char> chars){
 
 int main(){
      vector <char> chars={"a","a","b","b","c","c","c"};
-
+    cout << compression(chars) ; 
       return 0;
 }
