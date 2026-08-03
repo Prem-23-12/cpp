@@ -1,7 +1,7 @@
 # include <bits/stdc++.h>
 using namespace std ;
 
-// 
+// Check Armstrong number 
 
 int main(){
     int n = 153 ;
