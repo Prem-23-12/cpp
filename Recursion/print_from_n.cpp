@@ -7,9 +7,9 @@ void printn(int i){
         return ;
     }
 
-    printn(i - 1);
-
     cout << i << " ";
+
+    printn(i-1);
 }
 
 int main(){
