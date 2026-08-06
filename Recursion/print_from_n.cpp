@@ -3,11 +3,13 @@ using namespace std ;
 
 void printn(int i){
 
+    // Base Condition
     if(i < 1){
         return ;
     }
 
     cout << i << " ";
+
 
     printn(i-1);
 }
