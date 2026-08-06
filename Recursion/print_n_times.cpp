@@ -14,6 +14,6 @@ void printno(int i, int N){
 }
 
 int main(){
-    printno(0, 5);
+    printno(1, 6);
     return 0 ;
 }
