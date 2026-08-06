@@ -4,12 +4,14 @@ using namespace std ;
 // Recursion 
 void printno(int i, int N){
 
+    // Base condition
     if(i == N){
         return ;
     }
 
     cout << i << " " ; 
 
+    // Recursive call 
     printno(i+1, N);
 }
 
