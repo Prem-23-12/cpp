@@ -10,7 +10,7 @@ void printno(int i, int N){
 
     cout << i << " " ; 
 
-    printno(i++, N);
+    printno(i+1, N);
 }
 
 int main(){
