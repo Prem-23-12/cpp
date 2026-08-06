@@ -8,7 +8,7 @@ void printno(int i, int N){
         return ;
     }
 
-    cout << i ; 
+    cout << i << " " ; 
 
     printno(i++, N);
 }
