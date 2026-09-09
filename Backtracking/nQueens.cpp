@@ -4,7 +4,7 @@
 using namespace std;
 
 
-// Nqueens problem
+// nQueen problem
 bool isSafe(vector<string> &board, int row, int col, int n){
 
     // horizontal
