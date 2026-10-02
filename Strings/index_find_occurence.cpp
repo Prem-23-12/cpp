@@ -19,6 +19,7 @@ int indexofStr(string haystack, string needle){
 
 }
 
+
 int main(){
     string haystack = "sadbutsad";
     string needle = "sad";
