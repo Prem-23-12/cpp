@@ -20,7 +20,10 @@ int indexofStr(string haystack, string needle){
 }
 
 int main(){
+    string haystack = "sadbutsad";
+    string needle = "sad";
 
+    cout << indexofStr(haystack, needle);
 
     return 0 ;
 }
