@@ -1,6 +1,9 @@
 # include <bits/stdc++.h>
 using namespace std ;
 
+// leetcode question no. 
+// (28) Find the Index of the First Occurrence in a String
+
 int indexofStr(string haystack, string needle){
     int n = haystack.size();
     int m = needle.size();
